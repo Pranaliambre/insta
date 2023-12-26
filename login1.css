@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+main>form{
+    width: 30%;
+    border:2px solid black;
+    border-radius: 2px;
+    margin-top:10px ;
+    padding: 36px 34px;
+}
+main>form>h1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:orange; 
+}
+main>form>h2{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: navy; 
+}
+
+main>form> div>#A{
+display: flex;
+justify-content: center;
+
+}
+main>form>div>#A{
+    width: 30%;
+    left: 5%;
+}
+main>form>h3{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;  
+}
+
+main>form>input{
+    width:100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding-left: 10px;
+}
+main>form>button{
+    width: 100%;
+    height: 40px;
+    background-color:yellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+}
+main>form> div>a{
+    text-align: right;
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 20px;   
+}
+main>form>#pos{
+    margin-top: 30px;
+    position: relative;
+}
